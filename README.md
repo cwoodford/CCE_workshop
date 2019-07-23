@@ -24,3 +24,10 @@ With regards to the differences between hdot and the News for any one run, the f
 - When running CCE on many files at once, in the main/wrapper script include a "git annex get [worltubedata]" before running and a "git annex drop [worldtube data]" after running CCE and correct output has been verified to minimize the memory usage.
 - after creating the run directory with DoMultipleRuns, change the name of the directory to include the Lev and worldtube extraction radius
 - Note that DoMultipleRuns.input needs to be edited before being run. One should change the max and min Lev to the current Lev, change the extraction radius to the one currently being considered, and can get the final time from the SpEC.out file in the SimulationAnnex version of the run.
+
+### Relevant reading
+https://arxiv.org/abs/1309.3605 
+https://arxiv.org/abs/1605.04332
+https://arxiv.org/abs/1512.06800
+https://arxiv.org/abs/1502.06987
+https://arxiv.org/abs/1406.7029
